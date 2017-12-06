@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//Перестановка букв в слове.Запустите программу,введите слово и нажмите Ввод.
+//Программа выводит слово,в котором буквы переставлены в обратном порядке.
+//Для перестановки букв используется стек.
 public class ReverseApp {
     public static void main(String[] args) throws IOException {
         String input, output;
