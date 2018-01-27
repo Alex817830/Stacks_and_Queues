@@ -5,14 +5,14 @@ public class StackX {
     private long[] stackArray;
     private int top;
 
-    public StackX(int size){
-        maxSize = size;
+    public StackX(int maxSize) {
+        this.maxSize = maxSize;
         stackArray = new long[maxSize];
         top = -1;
     }
 
-    public void push(long elem){
-        stackArray[++top] = elem;
+    public  void push(long j){
+        stackArray[++top] = j;
     }
 
     public long pop(){
@@ -30,7 +30,5 @@ public class StackX {
     public boolean isFull(){
         return (top == maxSize-1);
     }
-
-
 }
 

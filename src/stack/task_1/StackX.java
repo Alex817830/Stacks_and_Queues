@@ -23,7 +23,8 @@ public class StackX {
         return stackArray[top];
     }
 
-    public boolean isEmpty(){       //True, if stack empty
+    public boolean isEmpty(){
         return (top == -1);
     }
+
 }
