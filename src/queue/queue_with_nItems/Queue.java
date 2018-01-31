@@ -1,4 +1,4 @@
-package queue;
+package queue.queue_with_nItems;
 
 public class Queue {
     private int maxSize;
@@ -47,4 +47,5 @@ public class Queue {
     public int size(){                  //количество элементов в очереди
         return nItems;
     }
+
 }

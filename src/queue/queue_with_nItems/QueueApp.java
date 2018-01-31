@@ -1,4 +1,6 @@
-package queue;
+package queue.queue_with_nItems;
+
+import queue.queue_with_nItems.Queue;
 
 public class QueueApp {
     public static void main(String[] args) {
